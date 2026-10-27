@@ -2,21 +2,21 @@
 
 小涡助手 Windows 与 Android 版的公开下载入口。本仓库用于分发安装包、更新清单、校验文件与发布说明。
 
-## Windows 1.5.0 · 轻量版
+## Windows 1.5.1
 
-[下载 Windows x64 ZIP](https://github.com/PN-BUG/xiaowo-updates/releases/download/windows-1.5.0/SoftwareToolkit-win-x64-lightweight.zip) · [发布说明](https://github.com/PN-BUG/xiaowo-updates/releases/tag/windows-1.5.0) · [SHA-256 校验文件](https://github.com/PN-BUG/xiaowo-updates/releases/download/windows-1.5.0/SoftwareToolkit-win-x64-lightweight.zip.sha256)
+[下载 Windows x64 独立版](https://github.com/PN-BUG/xiaowo-updates/releases/download/windows-1.5.1/SoftwareToolkit-win-x64-standalone.zip) · [下载轻量版](https://github.com/PN-BUG/xiaowo-updates/releases/download/windows-1.5.1/SoftwareToolkit-win-x64-lightweight.zip) · [发布说明与校验文件](https://github.com/PN-BUG/xiaowo-updates/releases/tag/windows-1.5.1)
 
-需要 Windows 10/11 x64 和 [.NET 8 Desktop Runtime x64](https://dotnet.microsoft.com/zh-cn/download/dotnet/8.0)。解压整个 ZIP 后运行 `SoftwareToolkit.exe`，保留旁边的 `tools.json` 和 `tools/`。升级前请备份自己的工具配置。
+支持 Windows 10/11 x64。独立版包含 .NET 运行时；轻量版需要 [.NET 8 Desktop Runtime x64](https://dotnet.microsoft.com/zh-cn/download/dotnet/8.0)。解压整个 ZIP 后运行 `SoftwareToolkit.exe`，保留旁边的 `tools.json` 和 `tools/`。升级前请备份自己的工具配置。
 
-新增离线二维码识别：选图、拖图、粘贴、屏幕识别及多二维码结果，可复制、打开网页或加入画板。
+本版统一应用与桌宠形象，保留默认、点击和拖拽表情。可在“设置 → 关于 → 检查更新”中查看说明并下载安装，校验 SHA-256、保留自定义工具，安装失败时回滚。尚无更新入口的旧版需要先手动升级一次。
 
-## Android 1.5.0
+## Android 1.5.1
 
-[下载最新版 APK](https://github.com/PN-BUG/xiaowo-updates/releases/download/android-latest/DandelionLanding.apk) · [1.5.0 固定版本](https://github.com/PN-BUG/xiaowo-updates/releases/tag/android-1.5.0)
+[下载最新版 APK](https://github.com/PN-BUG/xiaowo-updates/releases/download/android-latest/DandelionLanding.apk) · [1.5.1 固定版本](https://github.com/PN-BUG/xiaowo-updates/releases/tag/android-1.5.1)
 
-支持 Android 8.0 及以上。首次安装、1.3.x 或旧更新源的 1.4.0，请手动覆盖安装新版；之后可在“接收设置 → 应用更新”中检查升级，默认每天启动时最多自动检查一次，安装由 Android 系统确认。
+支持 Android 8.0 及以上，沿用原包名和签名。本版统一启动图标与首页形象，保留二维码、设备连接与文件传输功能。首次安装、1.3.x 或旧更新源的 1.4.0，请手动覆盖安装新版；之后可在“接收设置 → 应用更新”中检查升级，默认每天启动时最多自动检查一次，安装由 Android 系统确认。
 
-新增离线相机扫码、图片识别，以及桌面图标长按菜单中的“扫码 / 图片识别 / 连接电脑”。提供窄屏、大字号与圆屏布局。桌面菜单依赖启动器支持；实际摄像头、手机及手表显示仍待真机验证。手表目前按兼容侧载适配。
+手机、摄像头与手表显示尚未完成本次真机验证；手表目前按兼容侧载适配。
 
 ## 更新与校验
 
